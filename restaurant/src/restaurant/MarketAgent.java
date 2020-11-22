@@ -14,7 +14,7 @@ import java.util.concurrent.Semaphore;
  * Restaurant Market Agent
  */
 
-public class MarketAgent extends Agent implements Market {
+public class MarketAgent implements Market {
 	
 	private String name;
 	private int marketNum;

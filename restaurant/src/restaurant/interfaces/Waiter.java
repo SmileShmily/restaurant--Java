@@ -29,5 +29,7 @@ public interface Waiter {
 	 * Sent by the cashier if the customer does not pay enough for the bill (in lieu of sending {@link #HereIsYourChange(double)}
 	 */
 //	public void msgCantPay(Customer customer);
+        
+        public abstract void serveDishes();
 	
 }

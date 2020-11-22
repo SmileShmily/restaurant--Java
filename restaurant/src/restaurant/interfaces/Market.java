@@ -19,4 +19,5 @@ public interface Market {
 
 //	public abstract void msgCantPay(Customer customer);
 	
+        public abstract void openCloseStore();
 }
