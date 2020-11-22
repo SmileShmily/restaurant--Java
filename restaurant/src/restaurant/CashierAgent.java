@@ -16,7 +16,7 @@ import java.util.concurrent.Semaphore;
  * Restaurant Cook Agent
  */
 
-public class CashierAgent extends Agent implements Cashier {
+public class CashierAgent implements Cashier {
 	
 	private String name;
 	private double money;
@@ -345,6 +345,11 @@ public class CashierAgent extends Agent implements Cashier {
 			this.total = d;
 		}
 	}
+        
+        public abstract void openCloseStore();
+            //open and close store 
+        
+        public abstract void serveDishes();
 
 }
 
